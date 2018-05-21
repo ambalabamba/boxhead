@@ -101,7 +101,7 @@ class Chatlogger:
 
     def connectToServer(self, Username, Password, ServerIP, ServerPort):
         try:
-            self.SocketConn = socket.create_connection((ServerIP, ServerPort), socks.PROXY_TYPE_SOCKS5, "127.0.0.1", 9150)
+            self.SocketConn = socket.create_connection((ServerIP, ServerPort))
         except Exception as Error:
             print(Error)
             return
