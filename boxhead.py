@@ -42,7 +42,7 @@ class Chatlogger:
             if Receive:
                 return Socket.recv(self.BufSize).decode('utf-8')
 
-    def startKeepAlive(self, TimerSeconds = 1):
+    def startKeepAlive(self, TimerSeconds = 0.1):
         if hasattr(self, 'SocketConn'):
             KeepAliveTimer = threading.Timer(TimerSeconds, self.startKeepAlive)
             KeepAliveTimer.daemon = True
