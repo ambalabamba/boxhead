@@ -19,9 +19,9 @@ class Chatlogger:
         self.OnlineUserMap = {}
         self.Blacklist = [] # will ignore from specified users
                          
-        self.NameToIP = {'Squaresville': '198.58.106.101:1031', 'Boxhead Blvd.': '45.33.118.156:1031', 'Amsterdam':  '139.162.151.57:1031'}
+        self.NameToIP = {'Squaresville': '45.32.193.38:1031', 'Boxhead Blvd.': '45.33.118.156:1031', 'Amsterdam':  '139.162.151.57:1031'}
 
-        self.IPToName = {'198.58.106.101:1031': 'Squaresville', '45.33.118.156:1031': 'Boxhead Blvd.', '139.162.151.57:1031': 'Amsterdam'}
+        self.IPToName = {'45.32.193.38:1031': 'Squaresville', '45.33.118.156:1031': 'Boxhead Blvd.', '139.162.151.57:1031': 'Amsterdam'}
 
         self.ServerIP = IP
         self.ServerPort = Port
@@ -158,4 +158,4 @@ class Chatlogger:
 
 
 if __name__ == '__main__': # rest in pieces
-    Chatlogger('calcium130',  'lolok', '198.58.106.101', 1031)
+    Chatlogger('calcium130',  'lolok', '45.32.193.38', 1031)
