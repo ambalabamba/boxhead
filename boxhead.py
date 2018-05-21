@@ -26,7 +26,6 @@ class Chatlogger:
         self.ServerIP = IP
         self.ServerPort = Port
         self.BotServer = self.IPToName[ '{}:{}'.format(self.ServerIP, self.ServerPort)]
-        ctypes.windll.kernel32.SetConsoleTitleW("StickArena Chat Messages Logger")
 
         #socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, "127.0.0.1", 9150)
         #socket.create_connection = socks.create_connection
