@@ -158,4 +158,4 @@ class Chatlogger:
 
 
 if __name__ == '__main__': # rest in pieces
-    Chatlogger('calcium130',  'lolok', '45.32.193.38', 1031)
+    Chatlogger('calcium131',  'lolok', '45.32.193.38', 1031)
